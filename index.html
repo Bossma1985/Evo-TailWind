@@ -121,21 +121,38 @@
 
 <!-- Diagrama -->
 
-<div class="container mx-auto px-4 py-24">
-  <div class="w-full max-w-4xl mt-10 bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-4 rounded-lg shadow-lg">
-      <div class="bg-white p-2 rounded-lg">
-          <canvas id="chart" class="p-4"></canvas>
+<!-- Sección del Diagrama -->
+<section class="py-12 mx-5 bg-gradient-to-r from-blue-200 via-purple-100 to-pink-100 p-4 rounded-lg shadow-lg">
+  <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+          <h2 class="text-3xl leading-normal mb-2 font-bold text-gray-800">Número de Libros Vendidos por Mes</h2>
+          <p class="text-lg leading-relaxed font-light text-gray-600">Evolución de las ventas a lo largo del año</p>
+      </div>
+      <div class="flex justify-center">
+          <div class="w-full max-w-4xl bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-4 rounded-lg shadow-lg">
+              <div class="bg-white p-2 rounded-lg">
+                  <canvas id="chart" class="p-4"></canvas>
+              </div>
+          </div>
+      </div>
+      <div class="text-center mt-4">
+          <button class="mt-5 px-6 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-700 transition duration-300" onclick="exportChartToPDF()">Exportar a PDF</button>
       </div>
   </div>
-  <button class="mt-5 px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-700 transition duration-300 self-center" onclick="exportChartToPDF()">Exportar a PDF</button>
-</div>
 </section>
+
 <!-- Por Qué Elegirnos -->
 <section class="text-gray-700 body-font border-t border-gray-200">
   <div class="container px-5 py-24 mx-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Por Qué Elegirnos</h1>
-      <p class="text-base leading-relaxed xl:w-2/3 lg:w-3/4 mx-auto">Los puntos clave que diferencian a tu empresa de la competencia.</p>
+      <p class="text-base leading-relaxed xl:w-2/3 lg:w-3/4 mx-auto">El libro invita a sus lectores a embarcarse en un viaje transformador a través de la resilencia y la reinvención personal, narrando la historia de superación y evolución después de un accidente que cambió la vida del autor para siempre. Desde la perspectiva íntima de alguien que ha enfrentado y superado adversidades impensables, el relato despliega no solo las luchas físicas y emocionales tras un incidente traumático, sino también el profundo proceso de autoconocimiento y crecimiento personal que siguió. Los lectores se encontrarán con una narrativa honesta y cruda que no solo expone las duras realidades de vivir con una discapacidad física significativa, como una lesión medular, sino que también celebra las pequeñas victorias y los momentos de alegría en medio de la adversidad. <br>
+
+        A través de las páginas, se revela cómo el accidente actúa como un punto de inflexión, obligando al autor a confrontar no solo su nueva realidad física sino también a redescubrir su identidad y propósito. La historia profundiza en la importancia de la aceptación, la adaptación y la determinación, presentando una perspectiva inspiradora sobre cómo enfrentar y superar los retos que parecen insuperables​​.<br>
+        
+        Además, el libro se adentra en el poder transformador del amor, la amistad, y el apoyo familiar en el proceso de recuperación y adaptación a una nueva forma de vida. La relación con Crístel, marcada por el afecto profundo y el apoyo mutuo, desempeña un papel central en la narración, proporcionando luz en los momentos más oscuros y sirviendo como un recordatorio poderoso de la capacidad del amor para superar las barreras más difíciles​​.<br>
+        
+        En esencia, este libro se convierte en un testimonio conmovedor de la capacidad humana para adaptarse, cambiar y encontrar significado y felicidad en circunstancias que podrían parecer desesperanzadoras. Es una lectura esencial para aquellos que buscan inspiración para superar sus propias adversidades, así como para cualquier persona interesada en una historia de amor, lucha y triunfo sobre la tragedia.</p>
     </div>
     <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div class="p-2 sm:w-1/2 w-full">
