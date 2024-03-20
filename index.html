@@ -119,6 +119,8 @@
   </div>
 </section>
 
+<!-- Diagrama -->
+
 <div class="container mx-auto px-4 py-24">
   <div class="w-full max-w-4xl mt-10 bg-gradient-to-r from-blue-200 via-purple-200 to-pink-200 p-4 rounded-lg shadow-lg">
       <div class="bg-white p-2 rounded-lg">
@@ -127,7 +129,7 @@
   </div>
   <button class="mt-5 px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-700 transition duration-300 self-center" onclick="exportChartToPDF()">Exportar a PDF</button>
 </div>
-
+</section>
 <!-- Por Qué Elegirnos -->
 <section class="text-gray-700 body-font border-t border-gray-200">
   <div class="container px-5 py-24 mx-auto">
@@ -147,7 +149,7 @@
       <!-- Replicar para otras características -->
     </div>
   </div>
-</section>
+
 
 <!-- Galería o Portfolio -->
 <section class="text-gray-700 body-font border-t border-gray-200">
@@ -257,11 +259,11 @@
         data: {
             labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
             datasets: [{
-                label: 'Precio por kilogramo de naranjas (en euros)',
-                data: [0.75, 0.80, 0.65, 0.70, 0.60, 0.63, 0.67, 0.65, 0.70, 0.72, 0.78, 0.80],
+                label: 'Número de libros vendidos por mes',
+                data: [7, 28, 24, 47, 41, 78, 99, 153, 150, 234, 356, 420],
                 fill: false,
-                borderColor: 'orange',
-                tension: 0.1
+                borderColor: 'blue',
+                tension: 0.3
             }]
         },
         options: {
